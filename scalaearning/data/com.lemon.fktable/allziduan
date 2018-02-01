@@ -1,0 +1,90 @@
+customercaltype	下游(客户)的计费方式, 1:普通计费, 2:包量计费,3:分类计费,4:阶梯计费
+customercontractid	下游合约Id
+calbilling	下游是否计费 1：计费 2：不计费	【customerchargenum】
+customerunitprice	客户的的单价
+carrierprice	下游分类计费价格
+ourcaltype	上游的计费方式, 1:普通计费, 2:包量计费,3:分类计费,4:阶梯计费	【sourceCalType】
+ourcontractid	上游合约Id	【sourceContractId】
+sourcecalbilling	上游是否计费 1：计费 2：不计费	【sourcechargenum】
+sourcecarrierprice	上游分类计费价格
+ourcaltype	上游的计费方式, 1:普通计费, 2:包量计费,3:分类计费,4:阶梯计费
+ourunitprice	上游单价
+companyTagId	机构标识id
+timeSign
+sourcecount	我们调用上游的次数，如不需要，默认为1
+targetstatus	下游调用我们是否成功  1：成功  2：失败
+customercaltype	下游(客户)的计费方式, 1:普通计费, 2:包量计费,3:分类计费,4:阶梯计费
+customercontractid	下游合约Id
+calbilling	下游是否计费 1：计费 2：不计费	【customerchargenum】
+ourcaltype	上游的计费方式, 1:普通计费, 2:包量计费,3:分类计费,4:阶梯计费	【sourceCalType】
+ourcontractid	上游合约Id	【sourceContractId】
+customerunitprice	客户的的单价
+carrierprice	下游分类计费价格
+sourcecalbilling	上游是否计费 1：计费 2：不计费	【sourcechargenum】
+ourunitprice	上游单价
+sourcecarrierprice	上游分类计费价格
+uid	流水号
+datasourcename	上游厂商姓名s
+interfacename	上游接口(产品)名称
+orderidcreatetime	用户请求接口时间戳
+sourcestatus	调用上游是否成功  1：成功  2：失败
+sourcecalbilling	上游是否计费 1：计费 2：不计费
+customercaltype	下游(客户)的计费方式, 1:普通计费, 2:包量计费,3:分类计费,4:阶梯计费
+customerunitprice	客户的的单价
+carrierprice	下游分类计费价格
+customercontractid	下游合约Id
+targetcount	下游调用我们的次数，如不需要，默认为1
+ourcaltype	上游的计费方式, 1:普通计费, 2:包量计费,3:分类计费,4:阶梯计费
+ourunitprice	上游单价
+sourcecarrierprice	上游分类计费价格
+sourcecount	我们调用上游的次数，如不需要，默认为1
+ourcontractid	上游合约Id	【sourceContractId】
+customercaltype	下游(客户)的计费方式, 1:普通计费, 2:包量计费,3:分类计费,4:阶梯计费
+calbilling	下游是否计费 1：计费 2：不计费	【customerchargenum】
+customercaltype	下游(客户)的计费方式, 1:普通计费, 2:包量计费,3:分类计费,4:阶梯计费
+customerunitprice	客户的的单价
+carrierprice	下游分类计费价格
+customercontractid	下游合约Id
+calbilling	下游是否计费 1：计费 2：不计费	【customerchargenum】
+ourcaltype	上游的计费方式, 1:普通计费, 2:包量计费,3:分类计费,4:阶梯计费
+ourunitprice	上游单价
+sourcecarrierprice	上游分类计费价格
+ourcontractid	上游合约Id	【sourceContractId】
+sourcecalbilling	上游是否计费 1：计费 2：不计费	【sourcechargenum】
+companyTagId	机构标识id
+timeSign
+productid	产品Id
+companyTagId	机构标识id
+targetcount	下游调用我们的次数，如不需要，默认为1	【customerAllNum】
+targetstatus	下游调用我们是否成功  1：成功  2：失败	【customerSuccessNum】
+cached	是否调用缓存  1：是  2：否	【cacheNum】
+calbilling	下游是否计费 1：计费 2：不计费	【customerchargenum】
+customercaltype	下游(客户)的计费方式, 1:普通计费, 2:包量计费,3:分类计费,4:阶梯计费
+customerunitprice	客户的的单价
+carrierprice	下游分类计费价格
+customercontractid	下游合约Id
+calbilling	下游是否计费 1：计费 2：不计费	【customerchargenum】
+ourcaltype	上游的计费方式, 1:普通计费, 2:包量计费,3:分类计费,4:阶梯计费	【sourceCalType】
+sourcecalbilling	上游是否计费 1：计费 2：不计费	【sourcechargenum】
+ourunitprice	上游单价
+sourcecarrierprice	上游分类计费价格
+ourcontractid	上游合约Id	【sourceContractId】
+sourcecalbilling	上游是否计费 1：计费 2：不计费	【sourcechargenum】
+uid	流水号
+companyname	公司名称
+appkey	机构标识
+productname	下游产品名称
+orderidcreatetime	用户请求接口时间戳
+targetstatus	下游调用我们是否成功  1：成功  2：失败
+cached	是否调用缓存  1：是  2：否	【cacheNum】
+calbilling	下游是否计费 1：计费 2：不计费	【customerchargenum】
+customercaltype	下游(客户)的计费方式, 1:普通计费, 2:包量计费,3:分类计费,4:阶梯计费
+customerunitprice	客户的的单价
+carrierprice	下游分类计费价格
+customercontractid	下游合约Id
+targetcount	下游调用我们的次数，如不需要，默认为1
+ourcaltype	上游的计费方式, 1:普通计费, 2:包量计费,3:分类计费,4:阶梯计费	【sourceCalType】
+ourunitprice	上游单价
+sourcecarrierprice	上游分类计费价格
+ourcontractid	上游合约Id	【sourceContractId】
+sourcecount	我们调用上游的次数，如不需要，默认为1

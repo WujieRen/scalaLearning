@@ -13,15 +13,19 @@ object WordCount {
       .getOrCreate()
     val sc = ss.sparkContext
 
-    val words = sc.textFile("data/com.lemon.fktable/table.txt")
-    val result = words.flatMap(line => line.split(" "))
+//    val words = sc.textFile("data/com.lemon.fktable/table.txt")
+    val words = sc.textFile("data/com.lemon.fktable/allziduan")
+    val result = words.flatMap(line => line.split("\n"))
       .filter(word => word.nonEmpty)
       .map((_,1))
       .reduceByKey(_+_)
 
-//    result.foreach(print)
-    result.foreach{v =>
+//    result.foreach(println)
+    /*result.foreach{v =>
       print(v + " ")
+    }*/
+    result.foreach{v =>
+      println(v._1)
     }
   }
 }
